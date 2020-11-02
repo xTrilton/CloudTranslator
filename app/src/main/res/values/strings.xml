@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CloudTranslator</string>
+    <string name="no_connection">no connection</string>
+    <string name="translated_text">Translated text</string>
+    <string name="translate">Translate</string>
+    <string name="speech_output">speech output</string>
+    <string name="speak">speak</string>
+</resources>
