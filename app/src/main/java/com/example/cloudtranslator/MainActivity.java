@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == REQUEST_CODE) {
             if (resultCode == RESULT_OK && null != data) {
 
-                // retrieve  convertedd output
+                // retrieve  converted output
                 ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                 //display the  output
                 outputtxt.setText(result.get(0));
