@@ -56,7 +56,7 @@ public class TranslateAPI extends AppCompatActivity {
 
 
         public void getTranslateService() {
-// here we permit eve
+// here we permit everything in order to access network when we call this method in the main thread
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
 // opening the  credentials file in the raw folder
